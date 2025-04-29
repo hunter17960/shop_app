@@ -1,0 +1,56 @@
+name: Genie
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.3
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+  conditional_builder_null_safety: ^0.0.6
+  dio: ^5.4.1
+  flex_color_scheme: ^7.3.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  flutter_native_splash: ^2.3.13
+
+flutter_native_splash:
+  image: assets/images/store.png
+  # color: "#f8fbf8"
+  color: "#161b16"
+  # image_dark: assets/images/store.png
+  # color_dark: "#161b16"
+  android_12:
+    image: assets/images/store.png
+    # icon_background_color: "#f8fbf8"
+    icon_background_color: "#161b16"
+    # image_dark: assets/images/store.png
+    # icon_background_color_dark: "#161b16"
+
+  android: true
+  ios: true
+  web: false
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+          weight: 700
+
